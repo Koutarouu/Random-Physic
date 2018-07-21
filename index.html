@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Random Physik</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="css/invie.css"/>
+  </head>
+  <body>
+    <section id="portada" class="portada background"> <!-- portada -->
+      <header id="header" class="header contenedor"> <!-- header -->
+        <nav class="menu"> <!-- menu -->
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="#guitarras">More</a>
+            </li>
+            <li>
+              <a href="precios.html">History</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <div class="contenedor">
+        <h1 class="titulo">Deutsche <span>Phy</span>sik</h1><!-- titulo -->
+        <h3 class="title-a">Conoce mas sobre la historia de la fisica</h3><!-- resumen -->
+        <a class="button" href="#guitarras">Conoce mas</a><!-- boton -->
+      </div>
+    </section>
+    <section id="guitarras" class="guitarras contenedor"> <!-- guitarras -->
+      <h2>Nuestra guitarras</h2><!-- titulo -->
+      <article class="guitarra"> <!-- guitarra 1 -->
+        <img class="derecha" src="https://www.researchgate.net/profile/Romain_Teyssier/publication/229069746/figure/fig2/AS:376863219306498@1466862601397/Cosmic-Accretion-Rate-for-the-LCDM-cosmology-with-zr-20-for-the-universe-as-a-whole.png" alt="Guitarra Invie Acustica" width="350"/>
+        <div class="contenedor-guitarra-a">
+          <h3 class="title-b">Space X</h3>
+          <ol>
+            <li>Fiability</li>
+            <li>Security</li>
+            <li>Low price</li>
+          </ol>
+        </div>
+      </article>
+      <article class="guitarra b"> <!-- guitarra 2 -->
+        <img class="izquierda" src="https://laleyendadedarwan.files.wordpress.com/2016/08/nasalogo-570x450.png?w=840" alt="Guitarra Invie Classic" width="350"/>
+        <div class="contenedor-guitarra-b">
+          <h3 class="title-b">Nasa</h3>
+          <ol>
+            <li>Atronautas</li>
+            <li>Light</li>
+            <li>Trajes</li>
+          </ol>
+        </div>
+      </article>
+    </section>
+    <footer class="footer">
+      <div class="contenedor">
+        <div class="contacto">
+          <img src="https://image.flaticon.com/icons/png/512/46/46164.png" alt="logotipo blanco"/ width="250" height="150">
+          <a href="tel:+573024456678"><strong>Telefono</strong> <span>3024456678</span></a>
+          <a href="mailto:contacto@invie.com"><strong>E-mail</strong> <span>contacto@invie.com</span></a>
+        </div>
+        <form class="formulario">
+          <div class="col1">
+            <label for="nombre">Nombre</label>
+            <input type="text" required id="nombre" name="nombre"/>
+            <label for="email">E-mail</label>
+            <input type="email" required id="email" name="email"/>
+            <div class="sexo">
+              <label for="mujer">
+                <input type="radio" id="mujer" checked name="sexo" value="mujer"> mujer
+              </label>
+              <label for="hombre">
+                <input type="radio" id="hombre" name="sexo" value="hombre"> hombre
+              </label>
+            </div>
+            <div class="intereses">
+              <label for="cotizacion">
+                <input type="checkbox" checked id="cotizacion" name="intereses" value="cotizacion"> Cotización
+              </label>
+              <label for="reclamos">
+                <input type="checkbox" id="reclamos" name="intereses" value="reclamos"> Reclamos
+              </label>
+              <label for="comentarios">
+                <input type="checkbox" id="comentarios" name="intereses" value="comentarios"> Comentarios
+              </label>
+              <label for="otros">
+                <input type="checkbox" id="otros" name="intereses" value="otros"> Otros
+              </label>
+            </div>
+          </div>
+          <div class="col2">
+            <label for="comentarios">Comentarios</label>
+            <textarea name="comantarios" id="comentarios" cols="30" rows="7"></textarea>
+            <input type="submit" value="Enviar" class="button"/>
+          </div>
+        </form>
+      </div>
+    </footer>
+  </body>
+</html>
